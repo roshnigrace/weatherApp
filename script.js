@@ -2,7 +2,7 @@ function fetchData() {
     let place = l_name.value;
     const API_KEY = "6fa99e1f96f024f79970c5a3532b2ac6";
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${place}&appid=${API_KEY}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${place}&appid=${API_KEY}&units=metric`
     )
       .then((res) => res.json())
       .then((data) => populateValue(data))
