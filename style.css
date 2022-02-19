@@ -1,0 +1,16 @@
+body{
+   background-color: blueviolet;
+   height: 100%;
+   width: 100%;
+   padding-top: 100px;
+    background-image: url("./images/bgImage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+#date-time{
+    background-color: cornflowerblue;
+    width: 100%;
+    font-size: large;
+}
